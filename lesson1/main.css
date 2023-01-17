@@ -1,0 +1,33 @@
+h1 {
+    background: cyan;
+    color: antiquewhite;
+}
+
+h2 {
+    background: bisque;
+    color: aquamarine;
+}
+
+p {
+    background: coral;
+    color: forestgreen;
+}
+
+ul {
+    background: linen;
+    color: lime;
+}
+
+li {
+    background: rebeccapurple;
+    color: springgreen;
+}
+
+a {
+    background: darkmagenta;
+    color: darkgoldenrod;
+}
+
+img {
+    width: 300px;
+}
