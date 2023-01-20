@@ -1,0 +1,46 @@
+.cards1 {
+    height: 600px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box > * {
+    max-width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ h2 {
+    font-size: 1.1rem;
+}
+
+ p {
+    color: silver;
+    text-align: center;
+}
