@@ -1,0 +1,85 @@
+
+.silver-center {
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.adaptive-base-1, .adaptive-base-2 {
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 10px;
+}
+
+ .container  {
+    display: flex;
+    flex-grow: 7;
+    column-gap: 10px;
+}
+
+ .a {
+    flex-grow: 3;
+}
+
+.adaptive-base-1 .b, .adaptive-base-2 .sub-container {
+    flex-grow: 7;
+}
+
+.adaptive-base-1 .c {
+    flex-grow: 3;
+}
+
+.adaptive-base-2 .f {
+    flex-grow: 3;
+}
+
+.adaptive-base-2 .sub-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.adaptive-base-2 .b,
+.adaptive-base-2 .sub-sub-container,
+.c, .d, .e{
+    flex-grow: 1;
+}
+
+.adaptive-base-2 .sub-sub-container {
+    display: flex;
+    column-gap: 10px;
+}
+
+@media screen and (max-width: 576px) {
+   .container {
+        flex-direction: column;
+        flex-grow: 4;
+        row-gap: 10px;
+    }
+
+    .adaptive-base-1 .b {
+        flex-grow: 3;
+    }
+
+    .adaptive-base-1 .c, .f, .a , .sub-sub-container{
+        flex-grow: 1;
+    }
+
+    .sub-container {
+        flex-grow: 3;
+    }
+
+    .adaptive-base-2 .b {
+        flex-grow: 2;
+    }
+
+
+}
