@@ -136,10 +136,6 @@ div:not(.box) {
         display: none;
     }
 
-    .container {
-        width: 100vw;
-    }
-
     .fc-md {
         display: flex;
         flex-direction: column;
